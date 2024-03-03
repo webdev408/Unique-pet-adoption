@@ -11,3 +11,35 @@
   margin-top: 2%;
   margin-bottom: 5%;
 }
+
+.pet-card-template {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 5px #888888;
+
+}
+
+.pet-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 12px;
+}
+
+.pet-description {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 12px;
+}
+
+;
+
+.pet-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
