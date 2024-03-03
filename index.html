@@ -19,54 +19,21 @@
         every time they are there with you sharing joy, sorrow and playing along. Take home one today if you haven't got
         one!!.</p>
     </div>
-    <div class="row">
-      <div class="col-lg-6 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Dog: Beagle</h4>
-          <div class="card-body">
-            <img src="https://cdn.britannica.com/80/29280-050-A3A13277/Beagles-pets.jpg" alt="Beagle" class="img-fluid">
-          </div>
-          <div class="card-footer">
-            <button class="btn btn-primary" id="dog">Adopt</button>
-          </div>
+    <div class="list-of-pets"></div>
+    <template id="pet-card-template">
+      <div class="pet-card">
+        <div class="pet-card-text">
+          <h3></h3>
+          <p class="pet-description">Barksalot is a sweet and lovable dog who loves celery for lunch and playing fetch
+          </p>
+          <p class="pet-age">2 Years old</p>
+        </div>
+        <div class="pet-card-photo">
+          <img src="https://learnwebcode.github.io/bootcamp-pet-data/photos/barksalot.jpg"
+            alt="A white fulffy dog named barksalot">
         </div>
       </div>
-      <div class="col-lg-6 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Cat: Ragdoll</h4>
-          <div class="card-body">
-            <img src="https://cats.com/wp-content/uploads/2020/10/Ragdoll-Cat-compressed-768x384.jpg" alt="Ragdoll"
-              class="img-fluid">
-          </div>
-          <div class="card-footer">
-            <button class="btn btn-primary" id="cat">Adopt</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Cat: Maine Coon</h4>
-          <div class="card-body">
-            <img src="https://cats.com/wp-content/uploads/2020/10/Beautiful-Red-Maine-Coon-768x512.jpg" alt="Main Coon"
-              class="img-fluid">
-          </div>
-          <div class="card-footer">
-            <button class="btn btn-primary" id="parrot">Adopt</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-6 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Dog: Zypher</h4>
-          <div class="card-body">
-            <img src="https://picsum.photos/id/237/500" alt="black dog" class="img-fluid">
-          </div>
-          <div class="card-footer">
-            <button class="btn btn-primary" id="parrot">Adopt</button>
-          </div>
-        </div>
-      </div>
-    </div>
+    </template>
     <div class="d-flex justify-content-center">
       <p class="text-info">{footerText}</p>
     </div>
