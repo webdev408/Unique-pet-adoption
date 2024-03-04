@@ -10,36 +10,47 @@
 </head>
 
 <body>
-  <div class="container">
-    <h1 class="my-4 text-center">Meet Our Friends</h1>
-    <div class="pet-filter">
-      <p>Show me: <button class="active" data-filter="all">All Pets</button><button data-filter="dog">Only
-          Dogs</button><button data-filter="cat">Only Cats</button></p>
+  <div class="top-section-wrapper">
+    <div class="top-section">
+      <h1>Find Your New Bestie</h1>
+      <p>The most amazing list of adoptable pets at your fingertips. Updated fresh daily</p>
+      <div class="intro-buttons">
+        <a href="#" class="our-btn me-1">View Pets</a>
+        <a href="" class="our-btn btn-outline">Manage Pets</a>
+      </div>
+      <h3>4 Call Out Area Here</h3>
     </div>
-    <!-- <div class="container-fluid">
+  </div>
+  <h3>Actual Pet Area Placeholder</h3>
+  <h1 class="my-4 text-center">Meet Our Friends</h1>
+  <div class="pet-filter">
+    <p>Show me: <button class="active" data-filter="all">All Pets</button><button data-filter="dog">Only
+        Dogs</button><button data-filter="cat">Only Cats</button></p>
+  </div>
+  <!-- <div class="container-fluid">
       <p class="intro-para">These are not only looking lovely they provide you comfort come what may. Whether stress
         relieving or taking a
         walk along the walkway downtown, these friends are always there for you. You do not need to feel lonely and
         every time they are there with you sharing joy, sorrow and playing along. Take home one today if you haven't got
         one!!.</p>
     </div> -->
-    <div class="list-of-pets"></div>
-    <template id="pet-card-template">
-      <div class="pet-card">
-        <div class="pet-card-text">
-          <h3></h3>
-          <p class="pet-description"></p>
-          <p class="pet-age"></p>
-        </div>
-        <div class="pet-card-photo">
-          <img src="" alt="">
-        </div>
+  <div class="list-of-pets"></div>
+  <template id="pet-card-template">
+    <div class="pet-card">
+      <div class="pet-card-text">
+        <h3></h3>
+        <p class="pet-description"></p>
+        <p class="pet-age"></p>
       </div>
-    </template>
-    <div class="d-flex justify-content-center">
-      <p class="text-info">{footerText}</p>
+      <div class="pet-card-photo">
+        <img src="" alt="">
+      </div>
     </div>
+  </template>
+  <div class="d-flex justify-content-center">
+    <p class="text-info">{footerText}</p>
   </div>
+
   <script src="app.js"></script>
 </body>
 
