@@ -70,28 +70,36 @@
       <div class="circle-two"></div>
     </div>
   </div>
-  <h3>Actual Pet Area Placeholder</h3>
-  <h1 class="my-4 text-center">Meet Our Friends</h1>
-  <div class="pet-filter">
-    <p>Show me: <button class="active" data-filter="all">All Pets</button><button data-filter="dog">Only
-        Dogs</button><button data-filter="cat">Only Cats</button></p>
-  </div>
-  <div class="list-of-pets"></div>
-  <template id="pet-card-template">
-    <div class="pet-card">
-      <div class="pet-card-text">
-        <h3></h3>
-        <p class="pet-description"></p>
-        <p class="pet-age"></p>
+  <div class="page-section">
+    <div class="page-section-inner">
+      <h2 class="page-section-title">Meet Our Friends</h2>
+      <div class="pet-filter">
+        <p>Show me: <button class="active" data-filter="all">All Pets</button> <button data-filter="dog">Only
+            Dogs</button> <button data-filter="cat">Only Cats</button></p>
       </div>
-      <div class="pet-card-photo">
-        <img src="" alt="">
+      <div class="list-of-pets">
+        <div class="pet-card">
+          <div class="pet-card">
+            <div class="pet-card-text">
+              <h3></h3>
+              <p class="pet-description"></p>
+              <p class="pet-age"></p>
+            </div>
+            <div class="pet-card-photo">
+              <img src="" alt="">
+            </div>
+          </div>
+
+        </div><!--end of pet card-->
       </div>
     </div>
-  </template>
-  <div class="d-flex justify-content-center">
-    <p class="text-info">{footerText}</p>
   </div>
+  <footer class="site-footer">
+    <p>&copy; 2024 Windsor Pet Adoption Center. All rights reserved.</p>
+  </footer>
+  <template id="pet-card-template">
+  </template>
+
 
   <script src="app.js"></script>
 </body>
