@@ -25,7 +25,8 @@ async function petsArea() {
 petsArea();
 
 function createAgeText(birthYear) {
-  const age = new Date().getFullYear() - birthYear;
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
   return age === 1 ? `${age} year old` : `${age} years old`;
 }
 // pet filter button code
