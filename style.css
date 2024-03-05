@@ -164,6 +164,16 @@ html {
   cursor: pointer;
 }
 
+.pet-filter button:hover {
+  color: #7d7d7d;
+  text-decoration: underline;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475aff;
+}
+
 .site-footer p {
   text-align: center;
   color: #a6a6a6;
